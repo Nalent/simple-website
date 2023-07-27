@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, section {
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+}
+
+section {
+    background-color: #fff;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Contact Section */
+ul.contact-list li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header, section {
+        padding: 10px;
+    }
+}
